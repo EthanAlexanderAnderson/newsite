@@ -1,24 +1,28 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Ethan Anderson</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <style>
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: auto;
-      margin-bottom: auto;
-    }
-    </style>
+  <title>The Naruto Character Quiz</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="script.js"></script>
 </head>
 
-<body style="background-color:#FA7268;">
+<body>
+    <section id="Header">
+    <h1>The Naruto Character Quiz</h1>
+    </section>
 
-    <a href="https://www.instagram.com/ethan.anderson26/"><img src="Oops.png" alt="Oops, there's no content here yet. Click to be redirectred to instagram" class="center" style="width:80%;"></a>
+    <section id="first-question">
+    <p>Who was Naruto's father?</p>
+    <ul class="flex-container">
+        <li class="flex-item" onclick="correctCheck('False', 'one')"><img src="img/Hashirama.jpg" alt="Hashirama"><h2>Hashirama</h2></li>
+        <li class="flex-item" onclick="correctCheck('False', 'one')"><img src="img/Tobirama.jpg" alt="Tobirama"><h2>Tobirama</h2></li>
+        <li class="flex-item" onclick="correctCheck('False', 'one')"><img src="img/Hiruzen.jpg" alt="Hiruzen"><h2>Hiruzen</h2></li>
+        <li class="flex-item" onclick="correctCheck('True', 'one')"><img src="img/Minato.jpg" alt="Minato"><h2>Minato</h2></li>
+        <li class="flex-item" onclick="correctCheck('False', 'one')"><img src="img/Tsunade.jpg" alt="Tsunade"><h2>Tsunade</h2></li>
+    </ul>
+    <p id="one"> </p>
+    </section>
 
 </body>
 </html>
